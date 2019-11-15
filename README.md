@@ -6,7 +6,7 @@ FROM openjdk:8
 ADD target/dockerdemo.jar dockerdemo.jar
 EXPOSE 8085
 ENTRYPOINT ["java","-jar","/dockerdemo.jar"]
-### ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/dockerdemo.jar"]
+# ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/dockerdemo.jar"]
 
 3. Add jar file to a particular path in linux  via build  
 "/root/apache-maven-3.6.2/bin/mvn clean package"
