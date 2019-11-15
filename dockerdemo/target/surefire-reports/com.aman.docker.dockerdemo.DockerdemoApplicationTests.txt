@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.aman.docker.dockerdemo.DockerdemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.4 s - in com.aman.docker.dockerdemo.DockerdemoApplicationTests
