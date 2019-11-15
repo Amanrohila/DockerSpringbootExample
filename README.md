@@ -25,8 +25,8 @@ ENTRYPOINT ["java","-jar","/dockerdemo.jar"]
 "docker run -p 8085:8085 dockerdemotag &"
 
 8. Now check with bleow url
-http://localhost:8085//rest/docker/hello or http://192.168.56.101:8085//rest/docker/hello 
-# note you can get ip via "ifconfig" command
+http://localhost:8085//rest/docker/hello or http://192.168.56.101:8085//rest/docker/hello  
+   note you can get ip via "ifconfig" command
 
 9. You can check running caintaner with following command
 "docker ps -a" and result must be something   
